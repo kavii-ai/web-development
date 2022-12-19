@@ -18,6 +18,11 @@
 }
 .navbar{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -69,6 +74,7 @@
 }
 .box-main{
     display: flex;
+    height: 90%;
     justify-content: center;
     align-items: center;
     color: white;
@@ -80,23 +86,63 @@
 
 
 .firstHalf{
-    width: 80%;
+    width: 150%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.SecondHalf{
-    width: 30%;
 
-}
-
-.SecondHalf img{
-    width: 70%;
-    /* padding: 4px 0; */
+.secondHalf img{
+    width: 90%;
+    padding: 4px 0;    
     border: 3px solid white;
-    border-radius: 150px;
+    border-radius: 50px;
     display: block;
-    margin: centre;
+    margin: auto;
 }
 
+.text-big{
+    font-size: 30px;
+}
+
+.text-small{
+    font-size: 15px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 15px 3px;
+    border: 2px solid white;
+    border-radius: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.paras{
+    padding: 20px;
+}
+
+.section-left{
+    padding: 60px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    flex-direction: row-reverse;
+}
